@@ -9,7 +9,7 @@ const App = () => {
     },
     {
       Question: "Where do you live",
-      Answer: "Bangalore, India"
+      Answer: "Chennai, India"
     },
     {
       Question: "What do you do",
@@ -17,13 +17,13 @@ const App = () => {
     }
   ];
 
-  const renderHeader = (item, index) => (
+  const renderHeader = (item) => (
     <div>
       {item.Question}
     </div>
   );
 
-  const renderContent = (item, index) => (
+  const renderContent = (item) => (
     <div>
       {item.Answer}
     </div>
