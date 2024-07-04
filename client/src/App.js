@@ -34,7 +34,8 @@ const App = () => {
       <Accordion
         data={accordionData}
         mode="single"
-        defaultOpen={[0]}
+        defaultOpen={[]}
+        direction="bottom"
         renderHeader={renderHeader}
         renderContent={renderContent}
       />

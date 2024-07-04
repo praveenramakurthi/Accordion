@@ -23,7 +23,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: background 0.3s ease;
+  transition: background 0.8s ease;
 }
 
 .accordion-header:hover {
@@ -46,9 +46,12 @@
 }
 
 .accordion-header .arrow {
-  transition: transform 0.3s ease;
+  transition: transform 1s ease;
 }
 
 .accordion-item.open .accordion-header .arrow {
-  transform: rotate(90deg);
+  transform: rotate(0deg);
+}
+.accordion-item .arrow {
+  color: #6ba1ff;
 }

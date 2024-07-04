@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import AccordionList from './AccordionList';
 import './styles.css';
+
 const Accordion = ({ data, mode = 'multiple', defaultOpen = [], renderHeader, renderContent }) => {
   const [openItems, setOpenItems] = useState([]);
 
